@@ -223,7 +223,6 @@ jQuery(document).ready(function($){
 jQuery(document).ready(function($){
 	'use strict';
 	var weddingDate = new Date("2019-03-02");
-	alert(weddingDate)
 	$(".countdown").countdown({
 		until: weddingDate,
 		padZeroes: true,
